@@ -2,24 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Will You Be Mine?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Love Proposal</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <audio id="bg-music" src="assets/music.mp3" loop autoplay></audio>
 
-  <div class="container">
-    <img src="assets/couple.jpg" alt="Couple" class="couple-pic" />
-    <h1>My Heart Beats Only for You 💓</h1>
-    <p>Every moment with you feels like magic. Will you be mine forever?</p>
-    <div class="buttons">
-      <button id="yesBtn">Yes 💍</button>
-      <button id="noBtn">No 😅</button>
-    </div>
-    <div id="response"></div>
+  <!-- ✅ Insert here: Background music -->
+  <audio id="bg-music" src="assets/music.mp3" autoplay loop></audio>
+
+  <h1>💖 Will You Be Mine? 💖</h1>
+
+  <!-- other content like couple image, message, buttons -->
+  <img src="assets/couple.jpg" alt="Couple" class="main-photo" />
+
+  <p id="typewriter"></p>
+
+  <div class="buttons">
+    <button onclick="sayYes()">Yes ❤️</button>
+    <button onclick="sayNo()">No 😢</button>
   </div>
 
+  <!-- scripts at the end -->
+  <script src="confetti.browser.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
+
