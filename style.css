@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('assets/background.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+.couple-pic {
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px white;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 20px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px #ff4da6; }
+  to { text-shadow: 0 0 20px #ff66cc; }
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#yesBtn {
+  background-color: #ff66b2;
+  color: white;
+}
+
+#noBtn {
+  background-color: white;
+  color: #ff66b2;
+  position: relative;
+}
+
+#response {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
