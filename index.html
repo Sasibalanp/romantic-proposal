@@ -8,24 +8,29 @@
 </head>
 <body>
 
-  <!-- ✅ Insert here: Background music -->
+  <!-- 🎵 Background Music -->
   <audio id="bg-music" src="assets/music.mp3" autoplay loop></audio>
 
-  <h1>💖 Will You Be Mine? 💖</h1>
+  <!-- 💖 Main Content -->
+  <div class="container">
+    <h1>💖 Will You Be Mine? 💖</h1>
 
-  <!-- other content like couple image, message, buttons -->
-  <img src="assets/couple.jpg" alt="Couple" class="main-photo" />
+    <img src="assets/couple.jpg" alt="Us Together" class="main-photo" />
 
-  <p id="typewriter"></p>
+    <p id="typewriter" class="romantic-text"></p>
 
-  <div class="buttons">
-    <button onclick="sayYes()">Yes ❤️</button>
-    <button onclick="sayNo()">No 😢</button>
+    <div class="buttons">
+      <button onclick="sayYes()">Yes ❤️</button>
+      <button onclick="sayNo()">No 😢</button>
+    </div>
+
+    <p id="timer">You've been here for 0 seconds 💗</p>
   </div>
 
-  <!-- scripts at the end -->
+  <!-- Scripts -->
   <script src="confetti.browser.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
+
 
